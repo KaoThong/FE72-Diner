@@ -79,3 +79,18 @@ h6 {
   flex-flow: row wrap;
   align-items: center;
 }
+
+.backToTop {
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  padding: 15px 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #ff6600;
+  z-index: 10;
+  &:hover {
+    color: #fff;
+    opacity: 0.8;
+  }
+}
