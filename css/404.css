@@ -464,6 +464,7 @@ html {
   background: #232220;
   color: #c2d0da;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -543,5 +544,21 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  padding: 15px 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #ff6600;
+  z-index: 10;
+}
+
+.backToTop:hover {
+  color: #fff;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=404.css.map */

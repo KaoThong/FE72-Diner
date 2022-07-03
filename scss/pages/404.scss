@@ -9,6 +9,7 @@ html {
   background: $backgroundColor;
   color: $fontGrey;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
 }
 * {
   font-family: "Quicksand", sans-serif;

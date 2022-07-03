@@ -482,6 +482,7 @@ h6 {
 body,
 html {
   color: #c2d0da;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -763,5 +764,21 @@ p {
 
 .blogpost a.read:hover {
   color: #ff6600;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  padding: 15px 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #ff6600;
+  z-index: 10;
+}
+
+.backToTop:hover {
+  color: #fff;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=blog.css.map */
