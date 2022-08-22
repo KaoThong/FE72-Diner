@@ -60,6 +60,7 @@ html {
   .row {
     display: flex;
     align-items: center;
+    max-width: 1665px !important;
     .col-left {
       .item {
         .img {
@@ -91,7 +92,8 @@ html {
     }
     .col-right {
       .item {
-        padding: 0 60px;
+        padding-right: -15px !important;
+        display: block !important;
         h6 {
           font-size: 20px;
           font-weight: 400;
