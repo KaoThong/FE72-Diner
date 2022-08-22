@@ -58,9 +58,10 @@ html {
 .review {
   background-color: #ff6600;
   .row {
+    width: 1665px !important;
+    margin-right: 0 !important;
     display: flex;
     align-items: center;
-    max-width: 1665px !important;
     .col-left {
       .item {
         .img {
